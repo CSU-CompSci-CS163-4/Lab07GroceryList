@@ -1,3 +1,5 @@
+package GroceryList;
+
 public class GroceryMain {
     public static void main(String[] args) {
         GroceryTrip groceryApp = new GroceryTrip();

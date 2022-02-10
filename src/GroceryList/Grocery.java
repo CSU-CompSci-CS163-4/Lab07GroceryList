@@ -1,3 +1,4 @@
+package GroceryList;
 import java.util.Arrays;
 import java.util.ArrayList;
 
@@ -14,7 +15,7 @@ public class Grocery {
 
         name = splitGrocery.get(0);
         /*
-        * Here the Double and Integer wrapper class is being used.
+        * Here the Double and Integer wrapper classes are being used.
         * The values returned from using the str.split("char")
         * are Strings, so any easy conversion is using the Integer
         * Wrapper class to convert a *String* to a *double* or *int*.

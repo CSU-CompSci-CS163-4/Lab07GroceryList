@@ -1,3 +1,5 @@
+package GroceryList;
+
 public class GroceryTests {
     public static boolean removeGroceryTest1() {
         GroceryList grocList = new GroceryList();
