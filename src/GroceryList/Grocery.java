@@ -47,12 +47,12 @@ public class Grocery {
         return name + " which costs: $" + price + ", located in the aisle " + aisle + ".";
     }
 
-    public boolean equals(Grocery compareGrocery) {
-        if(compareGrocery.getName().equalsIgnoreCase(name)) {
-            if(compareGrocery.getPrice() == price) {
-                return true;
-            }
+    public boolean equals(Object compareObj) {
+        if(!(compareObj instanceof Grocery)) {
+           return false;
         }
-        return false;
+        Grocery compareGrocery = (Grocery) compareObj;
+        return name.equals(compareGrocery.getName()) 
+                 && price == compareGrocery.getPrice();
     }
 }
