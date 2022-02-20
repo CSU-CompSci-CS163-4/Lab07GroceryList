@@ -1,6 +1,4 @@
 package GroceryList;
-import java.util.Arrays;
-import java.util.ArrayList;
 
 public class Grocery {
     
@@ -10,21 +8,22 @@ public class Grocery {
     int calories = 0;
 
     public Grocery(String groceryStr) {
-        ArrayList<String> splitGrocery;
-        splitGrocery = new ArrayList<>(Arrays.asList(groceryStr.split("-")));
+        int firstHyphenIndex = groceryStr.indexOf("-");
+        int secondHyphenIndex = groceryStr.indexOf("-", firstHyphenIndex+1);
+        int thirdHyphenIndex = groceryStr.indexOf("-", secondHyphenIndex+1);
 
-        name = splitGrocery.get(0);
+        name = groceryStr.substring(0, firstHyphenIndex);
         /*
-        * Here the Double and Integer wrapper classes are being used.
+        * Here the Integer and Double wrapper classes are being used.
         * The values returned from using the str.split("char")
-        * are Strings, so any easy conversion is using the Integer
-        * Wrapper class to convert a *String* to a *double* or *int*.
-        * Here is the Integer Wrapper class Javadoc if you would like to check it out! 
+        * are Strings, so an easy conversion is using the Integer
+        * Wrapper class to convert a *String* to an *int*.
+        * Here is the Integer Wrapper class Javadoc. 
         * https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html
         */
-        price = Double.parseDouble(splitGrocery.get(1));
-        aisle = Integer.parseInt(splitGrocery.get(2));
-        calories = Integer.parseInt(splitGrocery.get(3));
+        price = Double.parseDouble(groceryStr.substring(firstHyphenIndex+1, secondHyphenIndex));
+        aisle = Integer.parseInt(groceryStr.substring(secondHyphenIndex+1, thirdHyphenIndex));
+        calories = Integer.parseInt(groceryStr.substring(thirdHyphenIndex));
     }
 
     public String getName() {
@@ -44,7 +43,8 @@ public class Grocery {
     }
 
     public String toString() {
-        return name + " which costs: $" + price + ", located in the aisle " + aisle + ".";
+        String str = String.format("%s which costs: $%.2f, located in the aisle %d.", name, price, aisle);
+        return str;
     }
 
     public boolean equals(Object compareObj) {
