@@ -28,7 +28,7 @@ After turning in your files, show your self-explanation and pseudocode to your T
 
 # Additional Information
 ## ArrayLists
-`ArrayList`s are an incredibly useful data container, meaning you can hold multiple objects of the same type within one! Lets say we wanted to create an `ArrayList` that held the type `String`. We would declare our `ArrayList` it like so:
+`ArrayList`s are an incredibly useful data container, meaning you can hold multiple objects of the same type within one! Lets say we wanted to create an `ArrayList` that held the type `String`. We would declare our `ArrayList` like so:
 ```
 ArrayList<String> strArrList = new ArrayList<String>();
 ```
@@ -46,7 +46,7 @@ Now the value of hasBeenAdded is "Add this to the ArrayList". The **0** being us
 There are many helpful methods associated with the ArrayList data contained which can be checked out [here](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html). Focusing on the For-Each loop will be very helpful.
 
 ## For-Each Loop
-The For-Each loop is a slightly different version of the typical *while* and *for* loop we are so used to using. To being with, it begins like a for loop, but there are two portions in the parentheses you must customize. The first portion being the Element that will be looped or iterated through. The second is the container that will be iterated through.
+The For-Each loop is a slightly different version of the typical *while* and *for* loop we are so used to using. It begins like a for loop, but there are two portions in the parentheses you must customize. The first portion being the Element that will be looped or iterated through. The second is the container that will be iterated through.
 If we were to iterate through our previously created ArrayList it would look like this:
 ```
 for(String str: strArrList) {
