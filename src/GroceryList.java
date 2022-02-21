@@ -1,4 +1,3 @@
-package GroceryList;
 import java.util.ArrayList;
 
 public class GroceryList {

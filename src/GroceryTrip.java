@@ -1,4 +1,3 @@
-package GroceryList;
 import java.util.Scanner;
 
 public class GroceryTrip {
