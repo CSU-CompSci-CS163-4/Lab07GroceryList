@@ -1,5 +1,3 @@
-package GroceryList;
-
 public class Grocery {
     
     String name = "";
