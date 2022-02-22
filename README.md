@@ -1,10 +1,10 @@
-# Lab 05 - Grocery List
+# Lab 07 - Grocery List
 This lab will focus working with [ArrayLists](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) and the [For-Each Loop](https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html). There will be some additional information near the bottom of this document if you need to gain a better understanding of today's topics.
 
 For ease of access, here is the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab07/package-summary.html).
 
 ## Pre-Step: Testing
-Whenever you implement one of these broken methods, a testing file `GroceryTests.java` has been provided for you to test each method you have worked on before moving on to the next step. All that is needed is to uncomment the `System.out.println()` lines when you would like to test said method.
+Whenever you implement one of these broken methods, a testing file ,`GroceryTests.java`, has been provided for you to test each method you have worked on before moving on to the next step. All that is needed is to uncomment the `System.out.println()` lines when you would like to test said method.
 
 It is also highly encouraged to create new tests as well, so feel free to create new methods and call them within `GroceryTests.java`!
 
@@ -22,7 +22,7 @@ For this next step, you will be tasked with two more methods in the `GroveryList
 Once you have completed the pseudocoding portion for each method, or just one, move onto implementing that method. Reminder that there are tests within the `GroceryTests.java` that you can use to ensure your implementation is correct.
 
 ## Step 4: Try the GroceryTrip Application
-Once each of your test cases have told you they are correct, it would be wise to run the entire applicaiton before turning it in. So swap over to the `GroceryMain` class and check it out. Don't forget the format of input that is needed when adding new groceries!
+Once each of your test cases have told you they are correct, it would be wise to run the entire application before turning it in. So swap over to the `GroceryMain` class and check it out. Don't forget the format of input that is needed when adding new groceries!
 
 ## Step 5: Finishing up
 After you have tested out the application and feel confident, turn in your program files to zyBooks.
