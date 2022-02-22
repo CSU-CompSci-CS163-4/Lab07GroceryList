@@ -38,8 +38,8 @@ public class GroceryTests {
         grocList.addGrocery(new Grocery("Eggs-4.50-7-640"));
 
         String expectedString = "Noodles which costs: $1.99, located in the aisle 1.\n";
-        expectedString += "Eggplant which costs: $3.2, located in the aisle 5.\n";
-        expectedString += "Eggs which costs: $4.5, located in the aisle 7.\n";
+        expectedString += "Eggplant which costs: $3.20, located in the aisle 5.\n";
+        expectedString += "Eggs which costs: $4.50, located in the aisle 7.\n";
 
         String actualString = grocList.toString();
         
@@ -55,7 +55,7 @@ public class GroceryTests {
         grocList.addGrocery(new Grocery("Pasta-3.00-1-500"));
 
         String expectedString = "Noodles which costs: $1.99, located in the aisle 1.\n";
-        expectedString += "Pasta which costs: $3.0, located in the aisle 1.\n";
+        expectedString += "Pasta which costs: $3.00, located in the aisle 1.\n";
 
         String actualString = grocList.getAisleGroceries(1);
 
