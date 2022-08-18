@@ -1,7 +1,7 @@
 # Lab 07 - Grocery List
 This lab will focus working with [ArrayLists](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) and the [For-Each Loop](https://docs.oracle.com/javase/8/docs/technotes/guides/language/foreach.html). There will be some additional information near the bottom of this document if you need to gain a better understanding of today's topics.
 
-For ease of access, here is the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab07/package-summary.html).
+For ease of access, here is the [javadoc](https://csu-compsci-cs163-4.github.io/Lab07GroceryList/package-summary.html).
 
 ## Pre-Step: Testing
 Whenever you implement one of these broken methods, a testing file ,`GroceryTests.java`, has been provided for you to test each method you have worked on before moving on to the next step. All that is needed is to uncomment the `System.out.println()` lines when you would like to test said method.
@@ -12,12 +12,12 @@ It is also highly encouraged to create new tests as well, so feel free to create
 At the moment you should be able to compile and run the program that begins in `GroceryMain.java`. If you have any troubles with this you may want to redownload the files or ask a TA. The [R]emove, [P]rint, and [G]et Aisle Groceries are currently nonfunctioning, but we will get this App fully functioning during this lab!
 
 ## Step 2: Self-Explanation
-Within the `GroceryList` class you will find the `removeGrocery()` method along with the later `getTotals()` which may help with your explanation that is needed for `removeGrocery()`. Given the current code within the `removeGrocery()` method you can get some indication as to what it needs, but the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab07/package-summary.html) may also come in handy for this step and the next. The For-Each loop is functional, but you will have to fill in the contents of the conditional statement, which is currently *false*.
+Within the `GroceryList` class you will find the `removeGrocery()` method along with the later `getTotals()` which may help with your explanation that is needed for `removeGrocery()`. Given the current code within the `removeGrocery()` method you can get some indication as to what it needs, but the [javadoc](https://csu-compsci-cs163-4.github.io/Lab07GroceryList/package-summary.html) may also come in handy for this step and the next. The For-Each loop is functional, but you will have to fill in the contents of the conditional statement, which is currently *false*.
 
 For this step, write down your self-explanation in the multi-line comment as to what the method is currently doing, and what is needed to make it fully functional. Once you have completed this self-explanation, right or wrong, try to apply your proposed change and use the `GroceryTests` `main` method to see if the output is correct.
 
 ## Step 3: Pseudocoding and Implementing
-For this next step, you will be tasked with two more methods in the `GroveryList` class. This time you should pseudocode as you did in last weeks lab, the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab07/package-summary.html)  will come in handy once again. Remember that pseudocode is combining english and code to create an easily readable map to assist you in actually implementing your method or program. Don't delete the pseudocode as you implement, so the TA's can verify you pseudocoded.
+For this next step, you will be tasked with two more methods in the `GroveryList` class. This time you should pseudocode as you did in last weeks lab, the [javadoc](https://csu-compsci-cs163-4.github.io/Lab07GroceryList/package-summary.html)  will come in handy once again. Remember that pseudocode is combining english and code to create an easily readable map to assist you in actually implementing your method or program. Don't delete the pseudocode as you implement, so the TA's can verify you pseudocoded.
 
 Once you have completed the pseudocoding portion for each method, or just one, move onto implementing that method. Reminder that there are tests within the `GroceryTests.java` that you can use to ensure your implementation is correct.
 
@@ -27,6 +27,7 @@ Once each of your test cases have told you they are correct, it would be wise to
 ## Step 5: Finishing up
 After you have tested out the application and feel confident, turn in your program files to zyBooks.
 After turning in your files, show your self-explanation and pseudocode to your TA.
+Online students do not have the option to submit their self-explanations but the completion of them are still highly recommended to help better understand the code. 
 
 # Additional Information
 ## ArrayLists
