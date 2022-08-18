@@ -26,7 +26,8 @@ Once each of your test cases have told you they are correct, it would be wise to
 
 ## Step 5: Finishing up
 After you have tested out the application and feel confident, turn in your program files to zyBooks.
-After turning in your files, show your self-explanation and pseudocode to your TA.
+After turning in your files, show your self-explanation and pseudocode to your TA. 
+Online students will not have the option to submit their self-explanation but it is still highly recommend that it is completed to help better understand the code.
 
 # Additional Information
 ## ArrayLists
