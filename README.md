@@ -25,7 +25,8 @@ Once you have completed the pseudocoding portion for each method, or just one, m
 Once each of your test cases have told you they are correct, it would be wise to run the entire application before turning it in. So swap over to the `GroceryMain` class and check it out. Don't forget the format of input that is needed when adding new groceries!
 
 ## Step 5: Finishing up
-After you have tested out the application and feel confident, turn in your program files to zyBooks.
+After you have tested out the application and feel confident, zip all assosciated assignment files and submit to canvas.
+
 After turning in your files, show your self-explanation and pseudocode to your TA.
 Online students do not have the option to submit their self-explanations but the completion of them are still highly recommended to help better understand the code. 
 
